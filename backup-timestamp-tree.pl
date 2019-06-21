@@ -1,4 +1,4 @@
-#!/usr/local/bin/perl
+#!/usr/bin/perl
 
 use File::Find;
 use File::stat;
@@ -16,3 +16,4 @@ sub eachFile {
 }
 
 find (\&eachFile, "$ARGV[0]");
+
